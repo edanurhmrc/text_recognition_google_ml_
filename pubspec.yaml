@@ -1,0 +1,31 @@
+name: text_recognition_ml
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image: ^3.0.2
+  image_picker: ^0.8.7+5
+  cupertino_icons: ^1.0.2
+  google_ml_vision: ^0.0.8
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/picture.png
